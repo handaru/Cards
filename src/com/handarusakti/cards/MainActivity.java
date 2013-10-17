@@ -3,13 +3,18 @@ package com.handarusakti.cards;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
+	private TextView txt;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		txt = (TextView) findViewById(R.id.txt);
+		txt.setText(getResources().getString(R.string.app_name));
 	}
 
 	@Override
