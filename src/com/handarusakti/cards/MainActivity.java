@@ -7,6 +7,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity {
 	private TextView txt;
+	private String name;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +16,8 @@ public class MainActivity extends Activity {
 		
 		txt = (TextView) findViewById(R.id.txt);
 		txt.setText(getResources().getString(R.string.app_name));
+		this.name = "Handaru";
+		System.out.println(name);
 	}
 
 	@Override
