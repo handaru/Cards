@@ -9,7 +9,8 @@ public class MainActivity extends Activity {
 	private TextView txt;
 	private String name;
 	// Add a comment
-        /* Add another comment */
+	// Add another comment
+	// ok
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
