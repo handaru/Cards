@@ -8,7 +8,6 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
 	private TextView txt;
 	private String name;
-	// Git Testing
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
