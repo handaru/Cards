@@ -12,6 +12,7 @@ public class MainActivity extends Activity {
 	// Add another comment
 	// ok
 	// Aja
+	// Walah
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
